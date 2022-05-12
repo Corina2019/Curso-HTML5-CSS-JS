@@ -2,18 +2,40 @@
     margin: 0;
 }
 
+html {
+    font-family: 'Zen Loop', cursive;
+    font-size: 30px;
+}
+
 @font-face {
     font-family: pepper;
     src: url(../fonts/PepperSauce.ttf);
 }
 
+.container {
+    margin: auto;
+    padding: 0 50px;
+}
+
+.titulo-blog {
+    padding: 150px 0;
+}
+
+.titulo-blog h1, .titulo-blog p {
+    text-align: center;
+}
+
 .header {
-    font-family: 'Zen Loop', cursive;
-    font-size: 100px;
+    font-size: 60px;
+    background-image: url(../img/home-bg.jpg);
+    background-size: cover;
 }
 
 nav {
-
+    background-color: rgba(255, 255, 255, 0.253);
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 2px 4px #0000001f;
 }
 
 nav a {
@@ -26,7 +48,7 @@ ul {
 }
 
 ul > li {
-    margin: 0 2px;
+    margin: 0 10px;
 }
 
 ul > li > a {
@@ -36,6 +58,7 @@ ul > li > a {
 
 ul > li > a:hover {
     color: #000000;
+    text-shadow: 1px 1px 3px #000000;
 }
 
 .content {
@@ -44,4 +67,15 @@ ul > li > a:hover {
     align-items: center;
     margin: 0 50px;
     padding: 30px 0 0 0;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 1.5rem; /* Unidade de medida relativa ao root (Elemento raiz)*/
+    text-decoration: none;
+    text-shadow: 2px 2px 3px #000000;
+}
+
+.logo:hover {
+    color: #0004e0;
 }
