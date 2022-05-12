@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 @font-face {
     font-family: pepper;
     src: url(../fonts/PepperSauce.ttf);
@@ -8,62 +12,36 @@
     font-size: 100px;
 }
 
-/*
-* {
+nav {
 
 }
-[data-test*=first] {
-    color: rgb(26, 209, 226);
+
+nav a {
+    display: block;
 }
 
-.home {
-    color: rgb(92, 7, 7);
-}
-*/
-
-
-/* pseudo class */
-/*
-.home:hover {
-    color:magenta
+ul {
+    list-style-type: none;
+    display: flex;
 }
 
-.home:active {
-    color: mediumblue;
+ul > li {
+    margin: 0 2px;
 }
 
-.home:visited {
-    color:rgb(92, 7, 7);
+ul > li > a {
+    text-decoration: none;
+    padding: 5px;
 }
 
-input:focus {
-    color:magenta;
-}
-*/
-
-/*
-Aplica cor em todos os span que estão dentro de nav
-nav span {
-    color: rgb(21, 255, 0);
+ul > li > a:hover {
+    color: #000000;
 }
 
-Aplica cor somente nos filhos do elemento nav
-nav > span {
-    color: rgb(21, 255, 0);
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+    padding: 30px 0 0 0;
 }
-*/
-
-/*
-Aplica cor nos elementos p,
-header e nos elementos
-que tem a class data-hora
-*/
-/*
-.data-hora, p, header {
-    color: rgb(21, 255, 0) !important;
-}
-
-#p1 {
-    color: blue;
-}
-*/

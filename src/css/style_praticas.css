@@ -1,0 +1,117 @@
+@font-face {
+    font-family: pepper;
+    src: url(../fonts/PepperSauce.ttf);
+}
+
+.header {
+    font-family: 'Zen Loop', cursive;
+    font-size: 100px;
+}
+
+nav {
+    background-color: #bb39394b;
+}
+
+div.titulo {
+    margin: 0 0 0 50px;
+    font-size: 60px;
+    text-align: center;
+     /* text-shadow: 0px 0px 2px #07c017, 0px 0px 5px #ff0000;*/
+    text-shadow: 3px 3px 2px #07c017, 3px 3px 2px #131613;
+    /* border-top: 1px solid #131613;
+    border-bottom: solid 2px #07c017; */
+    box-shadow: -5px 5px 10px #000;
+    border: #ff0000 2px solid;
+    border-radius: 6px;
+    /* width: 50%;
+    height: 300px; */
+}
+
+div.p > div {
+    background-color: #131613b0;
+    height: 100%;
+    width: 100%;
+    padding: 50px 0;
+}
+
+div.p {
+    margin: 40px auto;
+    width: 500px;
+    font-weight: bold ;
+    font-style: italic;
+    color: #ffffff;
+    text-align: center;
+    /*text-decoration: overline underline;*/ /* underline */
+    text-transform: uppercase; /* lowercase */
+    /*word-spacing: 50px;*/
+    line-height: 30px;
+    border: #050202 2px solid;
+    height: auto;
+    overflow: auto;
+    background-color: #07c017;
+    background-image: url(../img/paris.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: 0px -150px; */
+
+}
+
+/*
+* {
+
+}
+[data-test*=first] {
+    color: rgb(26, 209, 226);
+}
+
+.home {
+    color: rgb(92, 7, 7);
+}
+*/
+
+
+/* pseudo class */
+/*
+.home:hover {
+    color:magenta
+}
+
+.home:active {
+    color: mediumblue;
+}
+
+.home:visited {
+    color:rgb(92, 7, 7);
+}
+
+input:focus {
+    color:magenta;
+}
+*/
+
+/*
+Aplica cor em todos os span que estão dentro de nav
+nav span {
+    color: rgb(21, 255, 0);
+}
+
+Aplica cor somente nos filhos do elemento nav
+nav > span {
+    color: rgb(21, 255, 0);
+}
+*/
+
+/*
+Aplica cor nos elementos p,
+header e nos elementos
+que tem a class data-hora
+*/
+/*
+.data-hora, p, header {
+    color: rgb(21, 255, 0) !important;
+}
+
+#p1 {
+    color: blue;
+}
+*/
