@@ -79,3 +79,36 @@ ul > li > a:hover {
 .logo:hover {
     color: #0004e0;
 }
+
+article, .div-botao-order {
+   width: 60%;
+   margin: 50px auto;
+   line-height: 50px;
+   font-size: 1.1rem;
+   border-bottom: 1px #9c9c9c solid;
+   padding-bottom: 40px;
+}
+
+.div-botao-order {
+    border: none;
+}
+
+article a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+article a:hover {
+    color: #494bbe;
+}
+
+.div-botao-order {
+    text-align: right;
+}
+
+.div-botao-order button{
+    cursor:pointer;
+    padding: 28px;
+    font-size: 0.7rem;
+}
