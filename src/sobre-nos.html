@@ -68,6 +68,20 @@
             background-image: url(../src/img/branches.png);
             background-size: cover;
             display: none;
+            animation-name: animacao;
+            animation-duration: 1s;
+            animation-timing-function: ease-out;
+            opacity: 0;
+        }
+
+        @keyframes animacao {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
         }
 
     </style>

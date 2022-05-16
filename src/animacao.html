@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animação</title>
+    <style>
+
+        .bola {
+            width: 180px;
+            height: 180px;
+            border-radius: 180px;
+            background-color: blue;
+            position: fixed;
+            left: 50%;
+            margin-left: -90px;
+            top: 400px;
+            animation-name: bolinha;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: ease-out;
+            opacity: 0;
+        }
+
+        @keyframes bolinha {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .sombra {
+            width: 180px;
+            height: 5px;
+            border-radius: 180px;
+            background-color: rgb(0, 0, 0);
+            position: fixed;
+            left: 400px;
+            margin-left: -90px;
+            top: 580px;
+            box-shadow: 1px 1px 8px #000000;
+            animation-name: sombra;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: ease-out
+        }
+
+        @keyframes sombra {
+            from {
+                left: 45%;
+            }
+
+            to {
+                left: 20%;
+            }
+        }
+
+
+    .flex-box {
+        background-color: tomato;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        align-content: stretch;
+        flex-direction: row;
+
+    }
+    .div {
+        background-color: rgb(210, 7, 218);
+        width: 150px;
+        height: 150px;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="bola"></div>
+    <div class="sombra"></div>
+
+    <div class="flex-box">
+        <div class="div">Div 1</div>
+        <div class="div">Div 2</div>
+    </div>
+
+</body>
+</html>
