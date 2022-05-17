@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+}
+
+html {
+    font-size: 30px;
+}
+
+.row {
+    display: flex;
+}
+
+/* Tecnica chamada de mobile-first */
+.container {
+    background-color: blue;
+    margin: auto;
+    width: 100%;
+    /*display: none;*/
+}
+
+@media screen and (min-width: 576px) {
+    .container {
+        background-color: red;
+        margin: auto;
+        max-width: 540px;
+        /*display: block;*/
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        background-color: rgb(38, 255, 0);
+        margin: auto;
+        max-width: 720px;
+        /*display: block;*/
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        background-color: rgb(8, 226, 255);
+        margin: auto;
+        max-width: 920px;
+        /*display: block;*/
+    }
+}
+
+/* Cards */
+.card {
+    border: 1px solid #000;
+    /* max-height: 200px;
+    overflow: auto ; */
+}
